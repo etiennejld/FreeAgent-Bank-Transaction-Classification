@@ -11,8 +11,9 @@ from sklearn.preprocessing import OrdinalEncoder
 import seaborn as sns
 from collections import Counter
 
-bank_features = pd.read_csv('/Users/etienne/PycharmProjects/InternTest/bank_transactions_dataset/bank_transaction_features.csv')
-bank_labels = pd.read_csv('/Users/etienne/PycharmProjects/InternTest/bank_transactions_dataset/bank_transaction_labels.csv')
+# read csv files into code
+# bank_features = pd.read_csv('')
+# bank_labels = pd.read_csv('')
 
 print(bank_features['bank_transaction_amount'].describe())
 
